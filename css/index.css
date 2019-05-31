@@ -1,0 +1,60 @@
+.fa-cloud{
+	font-size: 32px;
+	color: red;
+	padding-left: 130px;
+	margin-top: 100px;
+}
+h1{
+	text-align: center;
+}
+b{
+	font-size: 35px;
+	padding-left: 10px;
+}
+body{
+	background-color: #cbd1db;
+}
+.btn-info{
+margin-left: 130px;
+width: 100px;
+border-radius: 17px;
+}
+.color{
+	margin-left: 130px;
+	width: 100px;
+	border-radius: 17px;
+	background-color: grey;
+}
+#size{
+	margin-left: 90px;
+	color: #14c6e5;
+}
+#size1{
+	margin-left: 40px;
+	color: white;
+	margin-top: 10px;
+}
+.color1{
+	background-color: grey;
+	color: #14c6e5;
+	border-radius: 50px;
+	width: 60px;
+	height: 20px;
+	margin-left: 10px;	
+}
+.length{
+margin-left: 50px;
+width: 130px;
+height: 40px;
+border-radius: 20px;
+font-size: 18px;
+}
+#align{
+	text-align: center;
+}
+.align1{
+	margin-left: 150px;
+	width: 100px;
+	border-radius: 17px;
+
+}

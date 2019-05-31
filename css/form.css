@@ -1,0 +1,22 @@
+.length1{
+	width: 70px;
+}
+.color1{
+	background-color: grey;
+	color: #14c6e5;
+	border-radius: 50px;
+	width: 60px;
+	height: 20px;
+	margin-left: 10px;	
+}
+input{
+	width:230px;
+	height: 30px;	
+}
+body{
+	background-color: #cbd1db;
+}
+select
+{
+	margin-left: 100px;
+}
