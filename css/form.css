@@ -20,3 +20,19 @@ select
 {
 	margin-left: 100px;
 }
+td{
+	padding-left: 20px;
+
+}
+#align{
+	margin-top: 30px;
+	text-align: center;
+}
+.btn-info{
+margin-left: 220px;
+width: 100px;
+}
+#size1{
+	margin-left: 180px;
+	margin-top: 20px;
+}

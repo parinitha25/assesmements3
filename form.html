@@ -1,84 +1,75 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<title>form</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="./css/form.css">
-</head>
-<body>
-	<p id="align">Register as a resident</p>
-			<select>
-				<option value ="male" size="50px">Resident</option>
-				<option value ="male" size="50px">Corporate</option>
-			</select>
-	
-
+  <html>
+  <head>
+  	<title>form</title>
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/form.css">
+  </head>
+  <body>
       <div class="container">
-      	<div class="row">
-      		<div class="col-sm-3"></div>
-      		<div class="col-sm-6">
-     	 <table>
-        <tr>
-           <td>first name name</td>
-           <td></td>
-           <td>last name</td>
-        </tr>
-        <tr>
-          <td><input type="text" name="name"></td>
-           <td></td>
-           <td><input type="text" name="name"></td>
-         </tr>
-        <tr>
-           <td>Email</td>
-           <td></td>
-           <th>Phone number</th>
-        </tr>
-        <tr>
-          <td><input type="text" name="name"></td>
-          <td></td>
-           <td><input type="text" name="name"></td>
-         </tr>
-      <tr>
-          <th>Street Address1</th>
-          <th></th>
-          <th>Street Address2</th>
-      </tr>
-        <tr>
-          <td><input type="text" name="name" placeholder="Street Address1"></td>
-          <td></td>
-           <td><input type="text" name="name"  placeholder="Street Address2"></td>
-         </tr>
-         <tr>
-           <th> city</th>
-           <th></th>
-           <th>State</th>
-           <th>zip code</th>
-        </tr>
-        <tr>
-          <td><input type="text" name="name" placeholder="city"></td>
-          <td></td>
-          <td><input type="text" name="name" placeholder="State" class="length1"></td> 
-          <td><input type="text" name="name" placeholder="zip code" class="length1"></td>
-         </tr>
-         <tr>
-           <th>Create password</th>
-            <th></th>
-            <th>Verify Password</th>   
-        </tr>
-        <tr>
-          <td><input type="text" name="name"></td>
-          <td></td>
-          <td><input type="text" name="name"></td>  
-         </tr>
-       </table><br>
-
-  	<button type="button" class="btn btn-info align1">submit</button>
-  		<p id="size1">Already have an account?
-			<button type="button" class="btn btn-primary btn-xs color1">login</button></p>
-		</div>
-		</div>
-		<div class="col-sm-3"></div>
-	</div>
-</body>
+      <div class="row">
+      <div class="col-sm-3"></div>
+      <div class="col-sm-6">
+  	  <p id="align">Register as a resident
+  		<select>
+  			<option  size="50px" class="border">Resident</option>
+  			<option  size="50px" class="border">Corporate</option>
+  		</select></p> <br><br>
+        <form name="forms">
+        <table>
+          <tr>
+            <td><label id="fname">Full Name</label>
+                <input type="text" class="large" name="fname" id="ifname">
+                <p class="color" id="pfname"></p></td>
+                <td><label id="lname">Last Name</label>
+                <input type="text" class="large" name="lname" id="ilname">
+                <p class="color" id="plname"></p></td>
+          </tr>
+          <tr>
+            <td><label id="ename">Email</label>
+                <input type="text" class="large" name="ename" id="iename">
+                <p class="color" id="pename"></p></td>
+            <td><label id="pname">Phone number</label>
+                <input type="text" class="large" name="fname" id="ipname">
+                <p class="color" id="pname"></p></td>
+          </tr>
+          <tr>
+            <td><label id="s1name">Street Address1</label>
+                  <input type="text" class="large" name="s1name" id="is1name" placeholder="Street Address1">
+                  <p class="color" id="ps1name"></p></td>
+            <td><label id="s2name">Street Address2</label>
+                <input type="text" class="large" name="ename" id="is2name" placeholder="Street Address2">
+                <p class="color" id="ps2name"></p></td>
+          </tr> 
+           <tr>
+             <td><label id="cname">City</label>
+                 <input type="text" class="large" name="cname" id="icname" placeholder="city">
+                 <p class="color" id="pcname"></p></td>
+             <td><label id="sname">State</label>
+                 <input type="text" class="large" name="sname" id="isname" placeholder="State">
+                 <p class="color" id="psname"></p></td>
+             <td><label id="zname">zip code</label>
+                  <input type="text" class="large" name="zname" id="izname" placeholder="zip code">
+                  <p class="color" id="pzname"></p></td>
+           </tr>
+             <td><label id="crname">Create password</label>
+                 <input type="text" class="large" name="crname" id="icrname">
+                 <p class="color" id="pcrname"></p></td>
+             <td><label id="vname">Verify Password</label>
+                 <input type="text" class="large" name="vname" id="ivname">
+                 <p class="color" id="pvname"></p></td>
+          </tr>
+          </table>
+       <br>
+        <button type="button" class="btn btn-info">Submit</button>
+    		<p id="size1">Already have an account?
+  			<button type="button" class="btn btn-primary btn-xs color1">login</button></p>
+        </form>
+  		  </div>
+        <div class="col-sm-4"></div>
+  		</div>	
+  	</div>
+  </body> 
+    <script type="text/javascript" src="./javascript/form.js"></script>
 </html>
